@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/App.css","webpack://src/components/Feedback/Feedback.module.css"],"names":[],"mappings":"AAAA,KACE,WAAY,CACZ,YACF,CCHA,0BACE,aACF","file":"main.cf3b0bf8.chunk.css","sourcesContent":[".App {\n  width: 100vw;\n  height: 100vh;\n}\n",".feedBack {\n  display: block;\n}\n"]}
