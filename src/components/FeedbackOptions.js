@@ -1,5 +1,7 @@
 import styles from './FeedbackOptions.module.css';
 
+import PropTypes from 'prop-types';
+
 export default function FeedbackOptions({ options, onLeaveFeedback }) {
   return (
     <section className={styles.buttonsList}>
@@ -15,3 +17,8 @@ export default function FeedbackOptions({ options, onLeaveFeedback }) {
     </section>
   );
 }
+
+FeedbackOptions.propTypes = {
+  options: PropTypes.arrayOf(PropTypes.string),
+  onLeaveFeedback: PropTypes.func,
+};

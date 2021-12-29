@@ -7,9 +7,14 @@ import Notification from './Notification';
 
 export class Feedback extends Component {
   state = {
+    // inimitable: 0,
+    // lovely: 0,
+    // wonderful: 0,
     good: 0,
     neutral: 0,
     bad: 0,
+    // wtf: 0,
+    // fuck: 0,
   };
 
   setValue = key => {
